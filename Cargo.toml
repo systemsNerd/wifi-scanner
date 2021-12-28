@@ -1,0 +1,17 @@
+[package]
+name = "scanner"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wifiscanner = "0.3.*"
+error-chain = "0.12.1"
+serde = "1.0.100"
+serde_json= "1.0.40"
+wifi-rs = "0.1.0"
+wifi = "0.1.0"
+clap = "2.33.0"
+ctrlc = "3.1.3"
+
